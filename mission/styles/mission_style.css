@@ -1,0 +1,44 @@
+
+/* Viewport, description, author, and charset
+
+Responsive Design */
+
+.container {
+    width: 90%; /* or a specific pixel value like 960px */
+    margin-left: auto;
+    margin-right: auto;
+    /* Shorthand for left/right auto margins: */
+    /* margin: 0 auto; */
+
+
+.title h1 {
+    
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+.title h3 {
+    color: #2e7ccb;
+    font-family: "Requiem Text A", "Requiem Text B", serif;
+    font-weight: 400; /* or other weights you've licensed */
+    font-style: normal;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+}
+
+
+.logo-section {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
+    font-family: helvetica;
+}
+
