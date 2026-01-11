@@ -3,42 +3,74 @@
 
 Responsive Design */
 
+body {
+    font-family: "Georgie", "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
 .container {
-    width: 90%; /* or a specific pixel value like 960px */
-    margin-left: auto;
-    margin-right: auto;
-    /* Shorthand for left/right auto margins: */
-    /* margin: 0 auto; */
+    max-width: 700px; 
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
 
-
-.title h1 {
-    
+h1 {
+    font-size: 32px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-bottom: 0.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
 }
 
-.title h3 {
+h3 {
     color: #2e7ccb;
     font-family: "Requiem Text A", "Requiem Text B", serif;
-    font-weight: 400; /* or other weights you've licensed */
+    font-weight: 400; 
     font-style: normal;
     letter-spacing: 0.15em;
     text-align: center;
-}
+    font-size: 14px;
+    margin-bottom: 40px;
 }
 
+p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+}
 
 .logo-section {
     text-align: center;
     margin-top: 1em;
 }
 
+ol {
+    text-align: left;
+    margin: 0 auto 1.5em auto;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+ol li {
+    margin-bottom: 18px;
+}
+
 .logo {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     font-family: helvetica;
+    margin-top: 60px;
 }
+
 
